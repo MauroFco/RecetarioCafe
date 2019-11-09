@@ -1,0 +1,37 @@
+GIT  - Sistema de control de versiones (manejo de código)
+Jira - Manejo de proyectos
+Jenkins - Automatización de pruebas/operaciones
+
+Sistema de control de versiones --- GIT
+Software para controlar cambios en información a través del tiempo
+Capacidad para revertir documentos/información a estados anteriores
+Comparar versiones - cambios realizados
+
+Nivel de cambio  (Agregar + , Quitar -)
+Fecha de cambio
+Autores
+Mensaje
+
+Visibilidad y ciclo de vida del proyecto
+
+Local VCS -> Centralizado -> Distribuido
+
+TRES ESTADOS DE ARCHIVO
+
+1. Original   | Guardado
+2. Modificado |	Cambios
+3. Nva version| Publicar
+
+TRES ESTADOS DE PROYECTO
+
+1. Directorio de trabajo
+2. Index Stage
+3. Repositorio
+
+
+
+
+
+
+
+

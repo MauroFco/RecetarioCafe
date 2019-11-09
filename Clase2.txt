@@ -1,0 +1,103 @@
+pwd 	Print working directory
+cd 	Change working directory
+cd .. 	Directorio inmediato previo
+ls/dir	List files in directory
+ll 	Detalled list files
+touch	Create a new empty file
+rm	Remove
+mkdir	Make directory
+histoy	Historial de comandos
+man	Manuales de comando
+mv	Renombrar el archivo
+
+~	Home de usuario
+-	Directorio anterior
+
+echo "Texto" >> nombrearchivo.txt ---- Crear archivo con texto interno
+
+
+cd ../Directorio	Cambiar a un nuevo directorio en una misma ruta
+
+cd ../../Directorio
+
+cp Archivo1 Archivo2
+
+ESC :wq
+
+
+Ruta absoluta - Directorio completo y desde raiz
+
+git config --list
+git config --global user.name "MauroA"
+git config --global user.email "maurofco01@hotmail.com"
+
+git init
+git status
+git add nombrearchivo
+git commit -m "mensaje"
+git remote add origin https://github.com/MauroFco/RecetarioCafe.git
+git push -u origin master
+
+git commit -a -m "Mensaje"			(Publicar omietiendo archivos en el stage)
+
+git status -s
+M - Modificado
+A - Agregado
+? - Untracked
+
+X   Staged   Archivo
+ X  Modified Archivo
+
+
+git diff --staged
+
+a/archivo  b/archivo ---- Comparar archivo
+f30c839    100644    ---- Compara metadata
+---a/arc   +++ b/arc ---- Cambios en marcas
+-12, 2     +12, 3    ---- Cambios en lineas
+-old con   +new cont ---- Cambios en chunk
+
+git diff --staged --no-renames
+
+git push origin master				(Publicar el nuevo commit con resto en stage)
+
+git log						(Historial de commit de reciente a anterior)
+
+git log -1					(Filtro de historial de commit (-1 = ultimo))
+
+git log --oneline				(Historial simple con hash y mensaje commit)
+
+git log --stat					(Historial detallado de commits realizados )
+
+git rm "archivo"				(Elimina archivo del git y del equipo local)
+
+git rm --cached "Archivo"			(Suspende temporalmente el archivo del git)
+						(Aparece tanto borrado y untracked status )
+						(Se detiene la suspensión al hacerle add  )
+
+git mv "Archivo" "Renombre"						
+
+git checkout -b "Rama"				(Crear rama de HEAD en GIT para nvo commit)
+
+git checkout master				(Cambiar de rama, volver a la rama master )
+
+git checkout 0886a99				(Cambiar a un hash en especifico en el GIT)
+
+git merge					(Combinar ramas en GIT			  )
+
+git branch "Rama"				(Crear rama sin cambiar el HEAD de GIT 	  )
+
+
+git stash
+
+git stash list
+
+git stash show
+
+
+git reset --soft				(Regresa un commit a la fase de Stage     )
+git reset --mixed				(Regresa un commit hasta working directory)
+git reset --hard				(Deshace completamente y defininitivamente)
+
+
+
